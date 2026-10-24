@@ -1,0 +1,22 @@
+{
+  "name": "meowdoku-solver",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node scripts/build-seo.mjs && node scripts/build-sw.mjs",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  },
+  "description": "A private, offline-ready Meowdoku solver with screenshot import, a colorful board builder, and algorithm comparisons.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivek-chaprana/Meowdoku-Lab.git"
+  }
+}
